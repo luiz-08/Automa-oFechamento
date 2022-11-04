@@ -38,7 +38,8 @@ time.sleep(2)
 
 notification = Notify()
 notification.title = "BOT FECHAMENTO"
-notification.message = "Por favor coloque seu código do segundo fator de autenticação (Token)"
+notification.message = "Por favor coloque seu código do segundo fator de autenticação (Token) \
+Bora ser feliz"
 notification.icon = "MicrosoftAuthenticator1.png"
 
 notification.send()
